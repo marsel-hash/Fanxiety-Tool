@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/assets/f2efea0c-1d19-4c1d-8d30-086cffd0de1f)
+![Fanxiety Tool](https://github.com/user-attachments/assets/f2efea0c-1d19-4c1d-8d30-086cffd0de1f)
 
 
 # Fanxiety Tool  
