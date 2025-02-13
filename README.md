@@ -4,21 +4,21 @@
 
 # Fanxiety Tool  
 
-Fanxiety Tool adalah kumpulan alat hacking yang dirancang untuk tujuan edukasi dan penelitian. Jangan gunakan untuk aktivitas illegal
+Fanxiety Tool is a collection of hacking tools designed for educational and research purposes. Do not use for illegal activities.
 
-**PERINGATAN**: Penggunaan alat ini untuk aktivitas ilegal atau tanpa izin adalah tindakan yang tidak bertanggung jawab dan dapat mengakibatkan konsekuensi hukum. Gunakan hanya untuk tujuan pembelajaran atau pada sistem yang kalian miliki.  
+**WARNING**: Using this tool for illegal or unauthorized activities is irresponsible and may result in legal consequences. Use only for educational purposes or on systems you own.  
 
 ---
 
-## Fitur (saat ini)
+## Features (current)
 - **DDoS (Distributed Denial-of-Service)**
 
 ---
 
-### Persyaratan  
+### Requirements 
 - Python 3.x 
 
-### Instalasi 
+### Installation
 1. **Clone repositori**:  
    ```bash
    git clone https://github.com/username/Fanxiety-Tool.git
