@@ -1,4 +1,5 @@
-![Fanxiety Tool](https://github.com/user-attachments/assets/f2efea0c-1d19-4c1d-8d30-086cffd0de1f)
+Fanxiety![Screenshot 2025-02-13 213627](https://github.com/user-attachments/assets/4773e96b-d0f3-448e-9aa0-e4fd5bd4c9f4)
+
 
 
 # Fanxiety Tool  
