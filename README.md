@@ -26,7 +26,7 @@ Fanxiety Tool is a collection of hacking tools designed for educational and rese
    ```bash
    pip install request
    pip install colorama
-   git clone https://github.com/username/Fanxiety-Tool.git
+   git clone https://github.com/marsel-hash/Fanxiety-Tool/blob/main/README.md
    cd Fanxiety-Tool
    python Fanxiety.py
 doesn't work for cloudflare u know why
