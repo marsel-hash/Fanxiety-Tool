@@ -24,3 +24,4 @@ Fanxiety Tool adalah kumpulan alat hacking yang dirancang untuk tujuan edukasi d
    git clone https://github.com/username/Fanxiety-Tool.git
    cd Fanxiety-Tool
    python Fanxiety.py
+doesn't work for cloudflare u know why
