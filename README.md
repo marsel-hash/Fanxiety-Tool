@@ -19,4 +19,4 @@ Fanxiety Tool adalah kumpulan alat hacking yang dirancang untuk tujuan edukasi d
    ```bash
    git clone https://github.com/username/Fanxiety-Tool.git
    cd Fanxiety-Tool
-2. **python Fanxiety.py**
+   python Fanxiety.py
