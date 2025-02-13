@@ -16,11 +16,16 @@ Fanxiety Tool is a collection of hacking tools designed for educational and rese
 ---
 
 ### Requirements 
-- Python 3.x 
+- Python 3.x
+- Colorama
+- Request
 
 ### Installation
-1. **Clone repositori**:  
+1. **Clone repositori**:
+   pip
    ```bash
+   pip install request
+   pip install colorama
    git clone https://github.com/username/Fanxiety-Tool.git
    cd Fanxiety-Tool
    python Fanxiety.py
