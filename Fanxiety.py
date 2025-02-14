@@ -2,6 +2,7 @@ import threading
 import requests
 import time
 import random
+import socket
 from colorama import Fore, Style, init
 
 init(autoreset=True)
@@ -22,6 +23,31 @@ def attack(target_url, delay):
             print(f"{Fore.RED}[✗] {Fore.WHITE}Error: {Fore.YELLOW}{e}")
         time.sleep(delay)
 
+def scan_website(url):
+    try:
+        domain = url.split("//")[-1].split("/")[0]
+        ip_address = socket.gethostbyname(domain)
+
+        response = requests.get(url)
+        server_header = response.headers.get('Server', 'Tidak ditemukan')
+
+        technologies = []
+        if 'x-powered-by' in response.headers:
+            technologies.append(response.headers['x-powered-by'])
+        if 'x-generator' in response.headers:
+            technologies.append(response.headers['x-generator'])
+
+        print(f"\n{Fore.BLUE}╔{'═'*50}╗")
+        print(f"║{Fore.RED}{'HASIL SCAN WEBSITE':^50}{Fore.BLUE}║")
+        print(f"╠{'═'*50}╣")
+        print(f"║ {Fore.WHITE}URL: {Fore.CYAN}{url.ljust(44)}{Fore.BLUE}║")
+        print(f"║ {Fore.WHITE}IP Address: {Fore.CYAN}{ip_address.ljust(37)}{Fore.BLUE}║")
+        print(f"║ {Fore.WHITE}Server: {Fore.CYAN}{server_header.ljust(41)}{Fore.BLUE}║")
+        print(f"║ {Fore.WHITE}Teknologi: {Fore.CYAN}{', '.join(technologies).ljust(38)}{Fore.BLUE}║")
+        print(f"╚{'═'*50}╝")
+    except Exception as e:
+        print(f"{Fore.RED}[✗] {Fore.WHITE}Error saat scanning: {Fore.YELLOW}{e}")
+
 def print_banner():
     print(f"""{Fore.RED}
 ███████╗ █████╗ ███╗   ██╗██╗  ██╗██╗███████╗████████╗██╗   ██╗
@@ -38,7 +64,8 @@ def print_menu():
     print(f"║{Fore.CYAN}{'MENU UTAMA':^50}{Fore.YELLOW}║")
     print(f"╠{'═'*50}╣")
     print(f"║ {Fore.GREEN}1.{Fore.WHITE} DDoS Attack{' '*35}{Fore.YELLOW}║")
-    print(f"║ {Fore.GREEN}2.{Fore.WHITE} Exit{' '*42}{Fore.YELLOW}║")
+    print(f"║ {Fore.GREEN}2.{Fore.WHITE} Website Scan{' '*27}{Fore.YELLOW}║")
+    print(f"║ {Fore.GREEN}3.{Fore.WHITE} Exit{' '*42}{Fore.YELLOW}║")
     print(f"╚{'═'*50}╝")
 
 def fanxiety_tool():
@@ -69,6 +96,10 @@ def fanxiety_tool():
             time.sleep(1)
     
     elif choice == "2":
+        target_url = input(f"\n{Fore.BLUE}║ {Fore.WHITE}Masukkan URL untuk di-scan: ")
+        scan_website(target_url)
+    
+    elif choice == "3":
         print(f"\n{Fore.RED}[!] {Fore.WHITE}Keluar dari program...")
         exit()
     
