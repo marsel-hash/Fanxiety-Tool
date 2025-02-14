@@ -32,5 +32,5 @@ Fanxiety Tool is a collection of hacking tools designed for educational and rese
    python Fanxiety.py
 
 ![1000107875](https://github.com/user-attachments/assets/1b1628af-e9f9-4f6a-8b60-2863da1c678c)
-
+just use it, no need to steal the code
 doesn't work for cloudflare u know why
