@@ -43,7 +43,7 @@ def scan_website(url):
         print(f"║ {Fore.WHITE}URL: {Fore.CYAN}{url.ljust(44)}{Fore.BLUE}║")
         print(f"║ {Fore.WHITE}IP Address: {Fore.CYAN}{ip_address.ljust(37)}{Fore.BLUE}║")
         print(f"║ {Fore.WHITE}Server: {Fore.CYAN}{server_header.ljust(41)}{Fore.BLUE}║")
-        print(f"║ {Fore.WHITE}Technology: {Fore.CYAN}{', '.join(technologies).ljust(38)}{Fore.BLUE}║")
+        print(f"║ {Fore.WHITE}Technology: {Fore.CYAN}{', '.join(technologies).ljust(37)}{Fore.BLUE}║")
         print(f"╚{'═'*50}╝")
     except Exception as e:
         print(f"{Fore.RED}[✗] {Fore.WHITE}Error while scanning: {Fore.YELLOW}{e}")
@@ -60,12 +60,12 @@ def print_banner():
     """)
 
 def print_menu():
-    print(f"{Fore.YELLOW}╔{'═'*50}╗")
-    print(f"║{Fore.CYAN}{'MAIN COURSE':^50}{Fore.YELLOW}║")
+    print(f"{Fore.WHITE}╔{'═'*50}╗")
+    print(f"║{Fore.CYAN}{'MAIN COURSE':^50}{Fore.WHITE}║")
     print(f"╠{'═'*50}╣")
-    print(f"║ {Fore.GREEN}1.{Fore.WHITE} DDoS Attack{' '*35}{Fore.YELLOW}║")
-    print(f"║ {Fore.GREEN}2.{Fore.WHITE} Website Scanning{' '*27}{Fore.YELLOW}║")
-    print(f"║ {Fore.GREEN}3.{Fore.WHITE} Exit{' '*42}{Fore.YELLOW}║")
+    print(f"║ {Fore.BLUE}1.{Fore.RED} DDoS Attack{' '*35}{Fore.WHITE}║")
+    print(f"║ {Fore.BLUE}2.{Fore.RED} Website Scanning{' '*30}{Fore.WHITE}║")
+    print(f"║ {Fore.BLUE}3.{Fore.RED} Exit{' '*42}{Fore.WHITE}║")
     print(f"╚{'═'*50}╝")
 
 def fanxiety_tool():
