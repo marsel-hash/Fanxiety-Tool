@@ -1,4 +1,4 @@
-![Screenshot 2025-02-13 213627](https://github.com/user-attachments/assets/4773e96b-d0f3-448e-9aa0-e4fd5bd4c9f4)
+![image](https://github.com/user-attachments/assets/dc0ff354-facf-40fd-9cac-24fa136c8800)
 
 
 
@@ -31,6 +31,5 @@ Fanxiety Tool is a collection of hacking tools designed for educational and rese
    cd Fanxiety-Tool
    python Fanxiety.py
 
-![1000107875](https://github.com/user-attachments/assets/1b1628af-e9f9-4f6a-8b60-2863da1c678c)
 just use it, no need to steal the code
 doesn't work for cloudflare u know why
