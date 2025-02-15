@@ -12,7 +12,7 @@ Fanxiety Tool is a collection of hacking tools designed for educational and rese
 
 ## Features (current)
 - **DDoS (Distributed Denial-of-Service)**
-- **Website Scanning**
+- **Website Scanner**
 
 ---
 
